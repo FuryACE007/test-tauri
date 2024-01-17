@@ -38,7 +38,7 @@
         "providerShortName": null,
         "signingIdentity": null
       },
-      "resources": [],
+      "resources": ["binaries/libhello.dylib"],
       "shortDescription": "",
       "targets": "all",
       "windows": {
