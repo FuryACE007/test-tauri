@@ -3,6 +3,6 @@
 
 extern "C" {
     const char* get_hello_world() {
-        return "Hello World";
+        return "Hello Lucid";
     }
 }
