@@ -1,0 +1,35 @@
+
+> test-tauri@0.1.0 build
+> next build
+
+
+> test-tauri@0.1.0 build
+> next build
+
+   Linting and checking validity of types ...
+   ▲ Next.js 14.0.4
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Collecting page data ...
+   Generating static pages (0/3) ...
+ ✓ Generating static pages (3/3) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      875 B          78.8 kB
+├   └ css/e7d3bab42d9af29d.css             612 B
+├   /_app                                  0 B            77.9 kB
+├ ○ /404                                   181 B          78.1 kB
+└ λ /api/hello                             0 B            77.9 kB
++ First Load JS shared by all              79.8 kB
+  ├ chunks/framework-4fcd38b8d88b89e2.js   45.2 kB
+  ├ chunks/main-5f0c94180401d0e5.js        31.7 kB
+  ├ chunks/pages/_app-210a98f1c0486876.js  297 B
+  ├ chunks/webpack-8fa1640cc84ba8fe.js     753 B
+  └ css/402d22ed9d1f5a9e.css               1.88 kB
+
+○  (Static)   prerendered as static content
+λ  (Dynamic)  server-rendered on demand using Node.js
+
